@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Update</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HelpHub - Weather Update</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charities.html">Charities List</a></li>
+                <li><a href="charity_profile.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Weather Update</h2>
+            <div>
+                <label for="cityInput"><strong>Enter City:</strong></label>
+                <input type="text" id="cityInput" placeholder="Enter city name" />
+                <button id="getWeather">Get Weather</button>
+            </div>
+            <div id="weatherInfo" style="margin-top: 20px;">Weather data will appear here...</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; HelpHub.</p>
+    </footer>
+    <script src="weather.js"></script>
+</body>
+</html>
